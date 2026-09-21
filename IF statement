@@ -11,3 +11,22 @@ elif(a3>a1 and a3>a2 and a3>a4):
 else:
     print("a4 is the largest number")
 print("end of the program")
+
+
+2.Checking for the student who pass the examination 
+
+mark1 = int(input("Enter your marks:"))
+mark2 = int(input("Enter your marks2:"))
+mark3 = int(input("Enter your marks3:"))
+#check for total percentage
+total_percentage = (mark1 + mark2 + mark3)/3
+if(total_percentage>=40):
+    print("You are pass in the exam")
+    print("Your total percentage is:", total_percentage)
+    
+else:
+    Print("You are fail in the exam")
+
+
+
+
