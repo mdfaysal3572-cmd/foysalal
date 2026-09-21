@@ -1,0 +1,27 @@
+a =[]
+a.append("Foysal")
+a.append("Hakim")
+a.append("Forhad")
+a.append("Reyazul")
+print(a)
+a.extend(["Rifat", "Faruk"])
+print(a)
+
+a.insert(0, "Abroy Ahamed")
+print(a)
+a.remove("Rifat")
+print(a)
+list = ["Foysal", "Hakim", "Forhad", "Reyazul"]
+list.sort()
+print(list)
+list.sort(reverse=True)
+print(list)
+
+
+l = ["Foysal", "Hakim", "Forhad", "Reyazul"]
+
+name = input("Enter your name:")
+if(name in l):
+    print("your name is in the list")
+else:
+    print("your name is not in the list")
